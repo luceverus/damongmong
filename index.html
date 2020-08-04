@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="clock.css" />
+    <link rel="stylesheet" href="name.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="navBar.css" />
+    <title>다몽시계</title>
+  </head>
+  <body>
+    <header class="js-headerBar headerBar">
+      <div class="headerColumn">
+        <div class="js-headerBar js-headerClock">
+          <h1 class="js-headerClock__title">00:00</h1>
+        </div>
+      </div>
+      <div class="headerColumn weather">
+        <span class="headerColumn__weather"></span>
+
+        <span class="headerColumn__place"></span>
+      </div>
+    </header>
+    <main class="main">
+      <div class="message">
+        <div class="clock__text">
+          현재 시각...
+        </div>
+        <div class="js-clock">
+          <h1 class="clock__title">00:00</h1>
+        </div>
+        사진을 보려면 클릭하세요!!!
+      </div>
+
+      <img class="image" alt="갈대사진" />
+    </main>
+    <div class="damong">
+      <img class="damong__pic" src="damong.png" alt="다몽이" />
+    </div>
+    <div class="name">
+      <div class="name__form form js-form">
+        <h4 class="name__massege">이름을 알려주세요.</h4>
+        <form>
+          <input type="text" />
+        </form>
+      </div>
+      <h4 class="greeting js-greeting"></h4>
+    </div>
+    <div class="js-toDo toDo">
+      <div class="toDoContainer">
+        <h4>오늘 할 일!</h4>
+        <form class="js-toDoForm toDoForm">
+          <input type="text" />
+        </form>
+      </div>
+      <ul class="js-toDoList toDoList"></ul>
+    </div>
+    <nav class="navigator js-navigator">
+      <div class="navigator__btn btn__left">
+        <a href="https://www.naver.com" class="btn-link"
+          ><img src="images/naver.png" alt="naver" class="btn-image"
+        /></a>
+      </div>
+      <div class="navigator__btn">
+        <a href="https://www.google.com" class="btn-link"
+          ><img src="images/google.jpg" alt="google" class="btn-image"
+        /></a>
+      </div>
+      <div class="navigator__btn">
+        <a href="https://www.facebook.com" class="btn-link"
+          ><img src="images/facebook.png" alt="facebook" class="btn-image"
+        /></a>
+      </div>
+      <div class="navigator__btn btn__right">
+        <a href="https://www.instagram.com" class="btn-link"
+          ><img src="images/instagram.jpg" alt="instagram" class="btn-image"
+        /></a>
+      </div>
+    </nav>
+  </body>
+  <script src="index.js"></script>
+  <script src="clock.js"></script>
+  <script src="todo.js"></script>
+  <script src="name.js"></script>
+  <script src="bg.js"></script>
+  <script src="headerClock.js"></script>
+  <script src="weather.js"></script>
+  <script src="named.js"></script>
+</html>
