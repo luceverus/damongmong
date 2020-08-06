@@ -30,7 +30,6 @@
 .navigator__btn:hover {
   border: 1px solid white;
   transform: scale(1.2) translateY(-10px);
-  a
 }
 .btn-image {
   width: 52px;
