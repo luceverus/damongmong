@@ -2,8 +2,8 @@ const headerClock = document.querySelector(".js-headerClock"),
   headerClockTitle = headerClock.querySelector(".js-headerClock__title");
 
 function getDay(dates) {
-  const day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-  return day[dates - 1];
+  const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  return day[dates];
 }
 function getHeaderDate() {
   const date = new Date();
